@@ -4,7 +4,7 @@ assessment_bp = Blueprint('assessment', __name__)
 
 
 @assessment_bp.post("/assessments")
-def get_data():
+def submit_assessment():
     data = request.get_json()
 
     name  = data.get("name")
