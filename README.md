@@ -4,13 +4,14 @@ A REST API for submitting and retrieving mental health assessments.
 Built with Flask. Returns JSON.
 
 ## Setup
+```bash
 git clone <repo-url>
 cd mental-health-assessment-api
 python -m venv .venv
 .venv\Scripts\activate.ps1
 pip install -r requirements.txt
 python app.py
-
+```
 **Stack:** Python, Flask
 
 ## End Points
